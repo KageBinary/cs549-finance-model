@@ -1,0 +1,68 @@
+\relax 
+\providecommand\hyper@newdestlabel[2]{}
+\providecommand\HyField@AuxAddToFields[1]{}
+\providecommand\HyField@AuxAddToCoFields[2]{}
+\citation{dataset}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{1}{section.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.1}Background}{1}{subsection.1.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.2}Dataset}{1}{subsection.1.2}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Category distribution in the clean labeled dataset (791 rows).}}{2}{table.caption.1}\protected@file@percent }
+\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
+\newlabel{tab:categories}{{1}{2}{Category distribution in the clean labeled dataset (791 rows)}{table.caption.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.3}Objectives}{2}{subsection.1.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {2}Methodology}{2}{section.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}Data Preprocessing}{2}{subsection.2.1}\protected@file@percent }
+\newlabel{sec:preprocessing}{{2.1}{2}{Data Preprocessing}{subsection.2.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}Feature Engineering}{2}{subsection.2.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3}Handling Class Imbalance}{3}{subsection.2.3}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Training set class distribution. Credit Card Payment is the dominant class at roughly 11x the size of Haircut.}}{3}{figure.caption.2}\protected@file@percent }
+\newlabel{fig:imbalance}{{1}{3}{Training set class distribution. Credit Card Payment is the dominant class at roughly 11x the size of Haircut}{figure.caption.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.4}Models}{3}{subsection.2.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.4.1}Logistic Regression}{3}{subsubsection.2.4.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.4.2}Support Vector Machine (LinearSVC)}{4}{subsubsection.2.4.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.4.3}Neural Network (MLP)}{4}{subsubsection.2.4.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.4.4}K-Nearest Neighbors (KNN)}{4}{subsubsection.2.4.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.5}Hyperparameter Tuning}{4}{subsection.2.5}\protected@file@percent }
+\newlabel{fig:svm_tune}{{2a}{4}{SVM: CV F1 vs. regularization parameter $C$}{figure.caption.3}{}}
+\newlabel{sub@fig:svm_tune}{{a}{4}{SVM: CV F1 vs. regularization parameter $C$}{figure.caption.3}{}}
+\newlabel{fig:knn_tune}{{2b}{4}{KNN: CV F1 vs. number of neighbors $K$}{figure.caption.3}{}}
+\newlabel{sub@fig:knn_tune}{{b}{4}{KNN: CV F1 vs. number of neighbors $K$}{figure.caption.3}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Hyperparameter tuning curves for SVM and KNN using 5-fold cross-validation on the training set.}}{4}{figure.caption.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {3}Results}{4}{section.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Performance Metrics}{4}{subsection.3.1}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces Model performance on the test set (159 samples, 18 classes). All metrics are weighted averages across classes.}}{5}{table.caption.4}\protected@file@percent }
+\newlabel{tab:results}{{2}{5}{Model performance on the test set (159 samples, 18 classes). All metrics are weighted averages across classes}{table.caption.4}{}}
+\newlabel{fig:comparison}{{3a}{5}{Accuracy, precision, recall, and F1 for each model}{figure.caption.5}{}}
+\newlabel{sub@fig:comparison}{{a}{5}{Accuracy, precision, recall, and F1 for each model}{figure.caption.5}{}}
+\newlabel{fig:time}{{3b}{5}{Training time in seconds}{figure.caption.5}{}}
+\newlabel{sub@fig:time}{{b}{5}{Training time in seconds}{figure.caption.5}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Model performance and efficiency comparison.}}{5}{figure.caption.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Confusion Matrices}{5}{subsection.3.2}\protected@file@percent }
+\newlabel{fig:cm_lr}{{4a}{5}{Logistic Regression}{figure.caption.6}{}}
+\newlabel{sub@fig:cm_lr}{{a}{5}{Logistic Regression}{figure.caption.6}{}}
+\newlabel{fig:cm_svm}{{4b}{5}{SVM (LinearSVC)}{figure.caption.6}{}}
+\newlabel{sub@fig:cm_svm}{{b}{5}{SVM (LinearSVC)}{figure.caption.6}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Confusion matrices for the two best-performing models.}}{5}{figure.caption.6}\protected@file@percent }
+\newlabel{fig:cm_mlp}{{5a}{6}{Neural Network (MLP)}{figure.caption.7}{}}
+\newlabel{sub@fig:cm_mlp}{{a}{6}{Neural Network (MLP)}{figure.caption.7}{}}
+\newlabel{fig:cm_knn}{{5b}{6}{KNN}{figure.caption.7}{}}
+\newlabel{sub@fig:cm_knn}{{b}{6}{KNN}{figure.caption.7}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Confusion matrices for MLP and KNN.}}{6}{figure.caption.7}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}Per-Class Analysis}{6}{subsection.3.3}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Per-class F1-score heatmap. Darker red indicates lower performance. Gas \& Fuel and Restaurants show the most variation across models.}}{7}{figure.caption.8}\protected@file@percent }
+\newlabel{fig:heatmap}{{6}{7}{Per-class F1-score heatmap. Darker red indicates lower performance. Gas \& Fuel and Restaurants show the most variation across models}{figure.caption.8}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces MLP loss and validation accuracy over training epochs. Early stopping halts training when validation accuracy stops improving.}}{7}{figure.caption.9}\protected@file@percent }
+\newlabel{fig:mlp_curve}{{7}{7}{MLP loss and validation accuracy over training epochs. Early stopping halts training when validation accuracy stops improving}{figure.caption.9}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {4}Discussion}{8}{section.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Why Linear Models Win}{8}{subsection.4.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Challenging Categories}{8}{subsection.4.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}Strengths and Weaknesses by Model}{8}{subsection.4.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4}Limitations}{8}{subsection.4.4}\protected@file@percent }
+\bibcite{dataset}{1}
+\bibcite{sklearn}{2}
+\bibcite{tfidf}{3}
+\bibcite{linearSVC}{4}
+\bibcite{mlp}{5}
+\@writefile{toc}{\contentsline {section}{\numberline {5}Conclusion}{9}{section.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {6}Individual Contributions}{9}{section.6}\protected@file@percent }
+\gdef \@abspage@last{9}
